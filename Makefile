@@ -33,11 +33,13 @@ clean:
 get_craptev1:
 	cp /root/Downloads/craptev1-v1.1.tar.xz ./ 
 	tar Jxvf craptev1-v1.1.tar.xz
+	rm -rf /root/Downloads/craptev1-v1.1.tar.xz
 
 get_crapto1:
 	cp /root/Downloads/crapto1-v3.3.tar.xz ./
 	mkdir crapto1-v3.3
 	tar Jxvf crapto1-v3.3.tar.xz -C crapto1-v3.3
+	rm -rf /root/Downloads/crapto1-v3.3.tar.xz
 
 # Windows cross compilation
 MINGW32 = i686-w64-mingw32-gcc
