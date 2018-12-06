@@ -34,14 +34,14 @@ get_craptev1:
 	wget -P ~/Downloads/ http://www2.vaneay.fr/mifare/craptev1-v1.1.tar.xz
 	tar Jxvf ~/Downloads/craptev1-v1.1.tar.xz --directory ~/Downloads/ --one-top-level
 	rm -rf ~/Downloads/craptev1-v1.1.tar.xz
-	mkdir ~/src/MiLazyCracker/crypto1_bs/
+	mkdir -p  ~/src/MiLazyCracker/crypto1_bs/
 	mv  ~/Downloads/craptev1-v1.1/crypto1_bs/
 
 get_crapto1:
 	wget -P ~/Downloads/ http://www2.vaneay.fr/mifare/crapto1-v3.3.tar.xz
 	tar Jxvf ~/Downloads/crapto1-v3.3.tar.xz --directory ~/Downloads/ --one-top-level
 	rm -rf ~/Downloads/crapto1-v3.3.tar.xz
-	mkdir ~/src/MiLazyCracker/crypto1_bs/
+	mkdir -p  ~/src/MiLazyCracker/crypto1_bs/
 	mv ~/Downloads/crapto1-v3.3/ ~/src/MiLazyCracker/crypto1_bs/
 	
 # Windows cross compilation
